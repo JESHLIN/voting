@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b1b1b;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.webtoon-card {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+}
+
+.webtoon-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.voting-section button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.voting-section button:hover {
+  background-color: #666;
+}
